@@ -1,0 +1,88 @@
+.rowcrates {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+.crate-img {
+    width: 30%;
+    height: 30%;
+    margin-left: 25%;
+}
+
+.crate-d {
+    margin: 5%;
+    float: right;
+}
+
+@media only screen and (max-width: 699px) {
+  .crate {
+      display: none;
+      background-color: #222;
+      position: fixed;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      z-index: 1;
+      align-content: center;
+      border-radius: 15px;
+      border: 1px solid grey;
+  }
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  margin: 5px;
+}
+
+.row2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .crate-line {
+      background-color: #000;
+      padding: 2%;
+  }
+
+  .crate {
+      display: none;
+      background-color: #222;
+      position: fixed;
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      z-index: 1;
+      align-content: center;
+      border-radius: 15px;
+      border: 1px solid grey;
+  }
+
+  .opencrate {
+      width: 150px;
+      height: 40px;
+      background-color: orange;
+      border:2px solid gray;
+      border-radius: 10px;
+  }
+
+  .exit {
+      text-align: right;
+      color: #000;
+      background: transparent;
+      border: transparent;
+      margin-top: 5px;
+      margin-right: 10px;
+  }

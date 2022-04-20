@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import 'shop.css';
+@import 'reviews.css';
+@import 'crates.css';
+@import 'footer.css';
+@import 'terrorist.css';
+@import 'comingsoon.css';
+@import 'roulette.css';
+
+.review-font {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.title-font {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 20px;
+}
+
+.feed-font {
+    font-family: 'Orelega One', cursive;
+    font-size: 20px;
+}
+
+body {
+    cursor: url('../imgs/bayonetm9cur.png'), auto;
+    font-family: 'Zen Dots', cursive;
+    background-color: black;
+    background: url(../imgs/hypebeastwp.png)!important;
+}
+
+p, a, div, h1 {
+    color: white!important;
+}
+
+.c-w {
+    color: white!important;
+}
+
+.b-grey {
+    background-color: rgb(17, 17, 17);
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: rgb(17, 17, 17);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+  .r {
+      text-align: right;
+  }
+
+  .no-s {
+      user-select: none;
+  }
+
+  .t-r {
+      text-align: right;
+  }
+  
+  .t-c { 
+    text-align: center;
+  }
+
+  a:hover {
+    color: gray;
+  }
+
+  .hr {
+      height: 5px;
+      width: 100%;
+      background-color: rgb(17, 17, 17);
+  }
+
+  .sub {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.tsub {
+    width: 100%;
+    background-color: #000;
+    padding: 5px;
+    font-size: 40px;
+}
+
+  .contenitore-immagini {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:2px solid rgb(17, 17, 17);
+  }
+  
+  .csgif {
+      width: 100%;
+  }
+
+  .intro {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center;
+      background-color: #000A;
+      padding: 2%;
+  }
+
+  .reviews {
+      width: 78%;
+      margin-left: 11%;
+      margin-right: 11%;
+      text-align: center;
+  }
+
+  .review {
+      padding: 2%;
+      background-color: #000;
+      border: 2px solid rgb(17, 17, 17);
+  }
+
+  .half-t {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      background-color: #000A;
+      font-size: 200%;
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    background-color: #000A;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .b222 {
+      background-color: #222;
+  }
+
+  .cards {
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000;
+    background-clip: border-box;
+    border: 1px solid grey;
+
+  }
+
+  .stattrak {
+      color: orange;
+  }
+
+  .nav-sel {
+      padding: 5px;
+  }
+
+  .d-n {
+      display: none;
+  }
+
+  .feed-div {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    background-color: #222;
+    border-radius: 15px;
+  }
+
+  .cookies {
+      position: fixed;
+      bottom: 0;
+      z-index: 10;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color:tan;
+      border: 2px solid darkorange;
+      font-family: 'Commissioner', sans-serif;
+  }
+
+  .f-r {
+      float: right;
+  }
+
+  .row3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    background-color: #222;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+  }
